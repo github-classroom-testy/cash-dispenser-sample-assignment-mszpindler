@@ -10,6 +10,9 @@ int main(int argc, char *argv[]) {
         cout << "Argument "<< i << " = " << argv[i] << endl;
     }
 
+    cout << "Tu bedzie moje rozwiazanie";
+    
+    
     ATM atm(new FeeTaker(20, new Dispenser(100, new Dispenser(50, new Dispenser(20, new Dispenser(10))))));
     // process the requests
     cout << "---------------" << endl;
